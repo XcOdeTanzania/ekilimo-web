@@ -631,11 +631,11 @@ section {
 /*--------------------------------------------------------------
 # Mitandao
 --------------------------------------------------------------*/
-.pricing .row {
+.mitandao .row {
   padding-top: 40px;
 }
 
-.pricing .box {
+.mitandao .box {
   padding: 40px;
   margin-bottom: 30px;
   box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
@@ -644,13 +644,13 @@ section {
   position: relative;
 }
 
-.pricing h3 {
+.mitandao h3 {
   font-weight: 300;
   margin-bottom: 15px;
   font-size: 28px;
 }
 
-.pricing h4 {
+.mitandao h4 {
   font-size: 46px;
   color: #fdc134;
   font-weight: 400;
@@ -658,13 +658,13 @@ section {
   margin-bottom: 25px;
 }
 
-.pricing h4 span {
+.mitandao h4 span {
   color: #bababa;
   font-size: 18px;
   display: block;
 }
 
-.pricing .get-started-btn {
+.mitandao .get-started-btn {
   background: #08AA35;
   display: inline-block;
   padding: 6px 30px;
@@ -677,32 +677,32 @@ section {
   transition: 0.3s;
 }
 
-.pricing .get-started-btn:hover {
+.mitandao .get-started-btn:hover {
   background: #fdc134;
 }
 
-.pricing .featured {
+.mitandao .featured {
   z-index: 10;
   margin: -30px -5px 0 -5px;
   border: 1px solid #08AA35;
 }
 
 @media (max-width: 992px) {
-  .pricing .box {
+  .mitandao .box {
     max-width: 60%;
     margin: 0 auto 30px auto;
   }
 }
 
 @media (max-width: 767px) {
-  .pricing .box {
+  .mitandao .box {
     max-width: 80%;
     margin: 0 auto 30px auto;
   }
 }
 
 @media (max-width: 420px) {
-  .pricing .box {
+  .mitandao .box {
     max-width: 100%;
     margin: 0 auto 30px auto;
   }
