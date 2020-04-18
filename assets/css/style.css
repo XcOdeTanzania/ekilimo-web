@@ -61,6 +61,10 @@ h1, h2, h3, h4, h5, h6 {
   background: #08AA35;
 }
 
+#logo {
+  transition: all 1s;
+}
+
 #logo:hover {
   transition: all 1s;
   transform: rotate(360deg);
@@ -247,8 +251,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 0 0 0;
   /*background: #08AA35;*/
   /*background: linear-gradient(360deg, #08AA35 0%, #204564 35%, #08AA35 100%);*/
-  ///height: 700px;
-  background-image: url('../img/tea-pickers.jpg');
+  /*height: 700px;*/
+  background-image: url('../img/backg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -468,7 +472,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/tea.jpg") center center no-repeat;
+  background: url("../img/us.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
