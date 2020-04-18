@@ -91,36 +91,36 @@
 
         <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
 
-          <div class="col-lg-2 col-md-4 col-6 ml-4">
+          <div class="col-lg-2 col-md-4 col-6">
             <div class="partner-logo">
-              <img src="assets/img/partners/tea_logo.png" class="img-fluid" alt="" data-aos="flip-right">
-              <small class="ml-2">Tanzania Education Authority</small>
+              <img src="assets/img/partners/tea_logo.png" title="Tanzania Eduaction Authority" data-toggle="tooltip" data-placement="bottom" class="img-fluid" alt="" data-aos="flip-right">
+              
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 ml-4">
-            <div class="partner-logo ml-2">
-              <img src="assets/img/partners/bigwa.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="100">
-              <small class="ml-2">Bigwa Folk Development College</small>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 ml-4">
-            <div class="partner-logo mr-4">
-              <img src="assets/img/partners/ekilimo.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="200">
-              <small class="ml-2">e-kilimo</small>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 ml-4">
+          <div class="col-lg-2 col-md-4 col-6">
             <div class="partner-logo">
-              <img src="assets/img/partners/sugeco_logo.jpg" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="400">
+              <img src="assets/img/partners/bigwa.png" title="Bigwa Folk Development College" data-toggle="tooltip" data-placement="bottom" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="100">
+              
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 ml-4">
-            <div class="partner-logo ml-4">
-              <img src="assets/img/partners/qlicue.png" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="500">
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="partner-logo">
+              <img src="assets/img/partners/ekilimo.png" title="e-kilimo" data-toggle="tooltip" data-placement="bottom" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="200">
+              
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="partner-logo">
+              <img src="assets/img/partners/sugeco_logo.jpg" title="Sokoine University Graduate Entrepreneurs Cooperative (Sugeco)" data-toggle="tooltip" data-placement="bottom" width="100" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="400">
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-12">
+            <div class="partner-logo">
+              <img src="assets/img/partners/qlicue.png" title="Qlicue Digital Agency" data-toggle="tooltip" data-placement="bottom" width="100" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="500">
             </div>
           </div>
 
@@ -449,18 +449,26 @@
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
 
+  <!--Popper CDN-->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	
   <!--Modal-video JS Files-->
   <script src="assets/modal-video/js/jquery-modal-video.min.js"></script>
   <script src="assets/modal-video/js/modal-video.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
   <script>
     // Get the year
     $('#year').text(new Date().getFullYear());
 
     // Modal-video
-    $('.js-modal').modalVideo();
+   $('.js-modal').modalVideo();
+
+    // Initiating tooltip
+    $('[data-toggle="tooltip"]').tooltip();
+
 
   </script>
 
