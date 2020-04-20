@@ -327,6 +327,11 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     height: 800px;
   }
+
+  #hero .hero img {
+    margin: 0 auto;
+    
+  }
 }
 
 @media (max-width: 575px) {
@@ -335,7 +340,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #hero {
-    height: 650px;
+    height: 320px;
+  }
+}
+
+@media (max-width: 420px) {
+  #hero {
+    height: 280px;
+  }
+}
+
+@media (max-width: 360px) {
+  #hero {
+    height: 310px;
   }
 }
 
