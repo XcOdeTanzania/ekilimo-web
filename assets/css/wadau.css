@@ -270,13 +270,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Wadau
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.wadau .wadau-item {
   margin-bottom: 30px;
 }
 
-.portfolio .portfolio-wrap {
+.wadau .wadau-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -284,7 +284,7 @@ section {
   z-index: 1;
 }
 
-.portfolio .portfolio-wrap::before {
+.wadau .wadau-wrap::before {
   content: "";
   background: rgba(33, 59, 82, 0.6);
   position: absolute;
@@ -296,11 +296,11 @@ section {
   z-index: 2;
 }
 
-.portfolio .portfolio-wrap img {
+.wadau .wadau-wrap img {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.wadau .wadau-wrap .wadau-links {
   opacity: 0;
   left: 0;
   right: 0;
@@ -311,11 +311,11 @@ section {
   transition: all ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.wadau .wadau-wrap:hover::before {
   left: 0;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-links {
+.wadau .wadau-wrap:hover .wadau-links {
   opacity: 1;
   top: calc(50% - 18px);
 }
