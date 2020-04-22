@@ -442,8 +442,34 @@ section {
   height: 120px;
 }
 
+#sugeco img:hover {
+  transform: scale(1.2);
+}
+
+#sugeco img {
+  transition: all 0.9s ease-in-out;
+}
+
+
+#abood img:hover {
+  transform: scale(1.2);
+}
+
+#abood img {
+  transition: all 0.9s ease-in-out;
+}
+
+
+#qlicue img:hover {
+  transform: scale(1.2);
+}
+
+#qlicue img {
+  transition: all 0.9s ease-in-out;
+}
+
 .partners img {
-  transition: all 0.4s ease-in-out;
+  transition: all 0.9s ease-in-out;
 }
 
 /*--------------------------------------------------------------
