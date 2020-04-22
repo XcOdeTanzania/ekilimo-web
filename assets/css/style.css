@@ -434,6 +434,14 @@ section {
   transform: scale(1.2);
 }
 
+#sugeco, #abood, #qlicue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 120px;
+}
+
 .partners img {
   transition: all 0.4s ease-in-out;
 }
