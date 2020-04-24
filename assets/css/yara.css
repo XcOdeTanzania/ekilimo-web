@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 3px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: "Poppins", sans-serif;
 }
 
@@ -122,7 +122,8 @@ h1, h2, h3, h4, h5, h6 {
   color:  #213b52;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: bold;
   font-family: "Open Sans", sans-serif;
   transition: all 1s;
 }

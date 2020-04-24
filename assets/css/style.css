@@ -77,7 +77,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 3px;
-  text-transform: uppercase;
   font-family: "Poppins", sans-serif;
 }
 
@@ -122,7 +121,8 @@ h1, h2, h3, h4, h5, h6 {
   color:  #213b52;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: bold;
   font-family: "Open Sans", sans-serif;
   transition: all 1s;
 }
@@ -130,20 +130,6 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #fff;
   text-decoration: none;
-}
-
-.nav-menu .get-started a {
-  background: #08AA35;
-  color: #fff;
-  border-radius: 50px;
-  margin: 2px 0 0 15px;
-  padding: 4px 25px 6px 25px;
-  border: 2px solid #fdc134;
-}
-
-.nav-menu .get-started a:hover {
-  background: #fdc134;
-  color: #213b52;
 }
 
 /* Mobile Navigation */
@@ -249,9 +235,6 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   padding: 0 0 0 0;
-  /*background: #08AA35;*/
-  /*background: linear-gradient(360deg, #08AA35 0%, #204564 35%, #08AA35 100%);*/
-  /*height: 700px;*/
   background-image: url('../img/backg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -279,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 22px;
 }
 
-#hero .btn-get-started {
+/*#hero .btn-get-started {
   color: #213b52;
   border-radius: 50px;
   padding: 8px 35px 10px 35px;
@@ -292,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started:hover {
   background: transparent;
   color: #fff;
-}
+}*/
 
 @media (max-width: 991px) {
   #hero .hero-img {
@@ -660,10 +643,6 @@ section {
 .team .member .social i {
   font-size: 18px;
   margin: 0 2px;
-}
-
-.mobileOnly {
-  visibility: hidden;
 }
 
 /*--------------------------------------------------------------
