@@ -607,11 +607,11 @@ section {
 .team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
-  min-height: 260px;
+  min-height: 70px;
 }
 
 .team .member .pic img {
-  max-width: 100%;
+  max-width: 58%;
 }
 
 .team .member h4 {
